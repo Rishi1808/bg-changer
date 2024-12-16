@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Section Styling */
+  section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Buttons Styling */
+  button {
+    background-color: #051937;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #mybtn1 {
+    background-color: #051937;
+  }
+  
+  #mybtn2 {
+    background-color: #13413f; /* Corrected hex code from #13413 to #13413f */
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Heading Styling */
+  h2 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #051937;
+  }
+  
+  /* Copy Code Section Styling */
+  .copyCode {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-left: 5px solid #051937;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  
